@@ -18,10 +18,6 @@ class start extends Phaser.Scene {
         document.addEventListener("click", (e) => {
             this.scene.start("PlayGame");
         });
-        // this.background = this.add.image(0, 0, "background");
-        // this.background.setOrigin(0, 0);
-        // this.background.displayWidth = gameOptions.width;
-        // this.background.displayHeight = gameOptions.height;
     }
 
     update() {}

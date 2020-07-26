@@ -1,6 +1,6 @@
 const gameOptions = {
-    width: 1334,
-    height: 750,
+    width: 1250,
+    height: 600,
 };
 
 export default gameOptions;

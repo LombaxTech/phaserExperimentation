@@ -10,8 +10,12 @@ const gameConfig = {
     type: Phaser.AUTO,
     // scene: [start, PlayGame],
     scene: [PlayGame, start],
-    // background: "yellow",
-    // TODO: Add physics,
+    physics: {
+        default: "arcade",
+        arcade: {
+            debug: false,
+        },
+    },
 };
 
 let game = new Phaser.Game(gameConfig);
